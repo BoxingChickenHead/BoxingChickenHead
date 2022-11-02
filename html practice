@@ -1,6 +1,27 @@
 <!DOCTYPE html>
+<head>
+<style>
+  h1 {
+    text-align: center;
+    color: blue;
+  }
+  .rightAlign {
+    text-align: right; 
+  }
+  h7.makeGreen {
+    color: green;
+  }
+</style>
+</head>
+
 <body>
-  <h1>Hello</h1>
-  <p>blah blah blah blah blah</p>
+  <h1>heading 1</h1>
+  <h2>heading 2</h2>
+  <h3>heading 3</h3>
+  <h4>headining 4</h4>
+  <p class="rightAlign">blah blah blah blah blah</p>
   <button>press me</button>
+  <br>
+  <h7 class="makeGreen">This is green</h7>
+  <p class="makeGreen">this is not green</p>
 </body>
